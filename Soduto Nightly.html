@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soduto Release Notes</title>
+</head>
+
+<body>
+    <h1><b>Version 3.0.0</b></h1>
+
+    <div class="caution">
+        <h2>⚠️ BREAKING CHANGES</h2>
+        <p>
+            Support for macOS 10.x and earlier has been dropped.
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/c424476">c424476</a>]<br>
+            The minimum supported macOS version is now <strong>macOS 11.0 (Big Sur)</strong>.
+        </p>
+
+        <p>
+            Soduto is a decade-old project and accumulated a large amount of deprecated and legacy code over time.
+            Replacing these components with modern APIs while keeping older macOS versions functional has become
+            increasingly difficult and unsustainable. Additionally, macOS 10.x is more than six years old.
+            Given Apple’s long software support lifecycle, systems still running these versions are typically very
+            outdated, making ongoing maintenance, testing, and stability harder to guarantee.
+        </p>
+
+        <p>
+            Untangling and replacing these legacy dependencies will require multiple development iterations,
+            as Soduto is deeply integrated with deprecated components and legacy Objective-C code,
+            due to having seen little active development for nearly a decade.
+        </p>
+
+        <p>
+            Anyone interested in maintaining or extending support for older macOS versions is free to fork the
+            project and continue development.
+        </p>
+    </div>
+
+    <h2>Enhancements</h2>
+    <ul>
+        <li>
+            Fetch Notification Icon as payload of the app
+            [<a href="https://github.com/sannidhyaroy/Soduto/pull/18">#18</a>]
+        </li>
+        <li>
+            Connectivity Report for connected devices
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/773c38c">773c38c</a>]
+        </li>
+        <li>
+            Support for Remote Device Input Capabilities like mouse receiver and remote keypresses
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/442af22">442af22</a>]
+        </li>
+        <li>
+            Support for Presentation Remote
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/d2eafa0">d2eafa0</a>]
+        </li>
+        <li>
+            Find macOS device from Android
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/45ef92b">45ef92b</a>]
+        </li>
+        <li>
+            Media Play/Pause in Telephony Service
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/45ef92b">45ef92b</a>]
+        </li>
+        <li>
+            MPRIS support for controlling audio of remote device
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/f2868c2">f2868c2</a>]
+        </li>
+        <li>
+            Sort order of files in <code>Soduto Files</code>
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/203c8e9">203c8e9</a>]
+        </li>
+        <li>
+            Support custom Run commands
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/4552714">4552714</a>]
+        </li>
+        <li>
+            Add Device Info for connected devices
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/4552714">4552714</a>]
+        </li>
+    </ul>
+
+    <h2>Improvements</h2>
+    <ul>
+        <li>
+            Call, SMS, and Share/Transfer icon improvements to fit Apple aesthetics
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/c6de381">c6de381</a>]
+        </li>
+        <li>
+            <code>Soduto Browser</code> has been renamed to <code>Soduto Files</code>
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/9f6ca85">9f6ca85</a>]
+        </li>
+        <li>
+            Image thumbnails in <code>Soduto Files</code> (previously known as <code>Soduto Browser</code>)
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/1d922e0">1d922e0</a>]
+        </li>
+        <li>
+            Fix contacts permission issue in Send window
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/45ef92b">45ef92b</a>]
+        </li>
+        <li>
+            Style Device List view to fit macOS aesthetics
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/4552714">4552714</a>]
+        </li>
+    </ul>
+
+    <h3>Known Bugs</h3>
+    <ul>
+        <li>
+            The notification payload is usually sent only once by KDE Connect for each notification ID.
+            Dismissing a notification and using the <em>Request Notifications</em> option may result in missing
+            notification icons. This also affects messaging apps like WhatsApp that reuse notification IDs.
+            This is a KDE Connect limitation with no clean workaround currently.
+        </li>
+        <li>
+            Some apps, such as <code>Ghostty</code>, are known to capture keyboard input,
+            preventing termination of the <em>Control Remote Device</em> function even after
+            pressing <code>Option + Escape</code>.
+        </li>
+    </ul>
+
+    <h3>Workaround</h3>
+    <ul>
+        <li>
+            To forcefully exit <em>Control Remote Device</em>, go to the App Info page of
+            KDE/Zorin Connect on your Android device and tap <strong>Force Stop</strong>.
+        </li>
+    </ul>
+
+    <h2>New Contributors</h2>
+    <ul>
+        <li>
+            @sidevesh made their first contribution in
+            [<a href="https://github.com/sannidhyaroy/Soduto/pull/18">#18</a>]
+        </li>
+        <li>
+            @ponzu840w made their first contribution in
+            [<a href="https://github.com/sannidhyaroy/Soduto/commit/d534a84">d534a84</a>]
+        </li>
+    </ul>
+
+    <h4>Full Changelog: <a
+            href="https://github.com/sannidhyaroy/Soduto/compare/v2.0.3-nightly...v3.0.0-nightly">v2.0.3-nightly...v3.0.0-nightly</a>
+    </h4>
+</body>
+
+</html>

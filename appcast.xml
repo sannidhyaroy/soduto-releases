@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Soduto</title>
+        <item>
+            <title>v3.0.0 Nightly (24)</title>
+            <pubDate>Wed, 14 Jan 2026 13:59:58 +0530</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://soduto.thenoton.com/Soduto%20Nightly.html</sparkle:releaseNotesLink>
+            <enclosure url="https://soduto.thenoton.com/Soduto%20Nightly.dmg" length="11548621" type="application/octet-stream" sparkle:edSignature="0NETDJ+Y5TzmdMiMmWxLs/qsANZ5MbUIzKYt27FkcuI13kHtPWnEpoVTDxBE94NN/M22ZoeP++Iq6g4A1SbCAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v3.0.0-nightly/Soduto24-20.delta" sparkle:deltaFrom="20" length="3500070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+u7hee9TcyPKbDquJ99uRa/uVikkGuHTF4htiCfyLTeJp4C9dN/UWQDoPWOoyn4BYeILI7wIZhoOQcG5kEc+Dw=="/>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v3.0.0-nightly/Soduto24-19.delta" sparkle:deltaFrom="19" length="3505774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ShKm91+ZhEKDqQa0bw+Xcc+hpcberINKy+2OzEKgQjx8f0PscaYxko1NEpDY5dDUc4+IWUtNjFgDzqn3Hk3BDQ=="/>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v3.0.0-nightly/Soduto24-18.delta" sparkle:deltaFrom="18" length="3507170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="XUsyVgUFH6H3TAx9T8M/wqXCtMRVYU5WdrLvr+ZROAQMMzCq051y9Zr2xIWnY4asUXkktK6SRxUz3ZAiGatTCQ=="/>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v3.0.0-nightly/Soduto24-17.delta" sparkle:deltaFrom="17" length="3512294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="oqtStwrKDiWVFOgbZD3R0KzJunZFlQtEmg0f3EN4tH5eywhOKoLP3M374GE+2R9VLxITGRKYA4AXya/5M/VMBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>v2.0.3 Nightly (20) [HOTFIX]</title>
+            <pubDate>Sun, 17 Sep 2023 19:35:56 +0530</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.14.6</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://soduto.thenoton.com/Soduto%20Nightly%20v2.0.3.html</sparkle:releaseNotesLink>
+            <sparkle:criticalUpdate sparkle:version="2.0.2"/>
+            <enclosure url="https://soduto.thenoton.com/Soduto%20Nightly%20v2.0.3.dmg" length="11361097" type="application/octet-stream" sparkle:edSignature="P8GUUwernX3/9d1PyDrwyfJELuPC+eQA4d6gc9W9cE0K4TOE8PgOSduEXI19bWX3XX3UWDMJBhDHV/6B78ycCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v2.0.3-nightly/Soduto20-19.delta" sparkle:deltaFrom="19" length="222398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="SdtdyjS0dPwb8xzND94HmCfQwVwswqwhcdiszwwjvmqRnjbiNzOQDBxenhkiRW527+P9mIdiGRNbZN/S4umQAA=="/>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v2.0.3-nightly/Soduto20-18.delta" sparkle:deltaFrom="18" length="261506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="VGRt6dwfsTfWwTx2q9qJ1CdTo7EkurMB0kYnzDL3VvcGzfabvMtWWfnWkbJ4tNDHZ6QZB8R84+rjMKhMqQSjAA=="/>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v2.0.3-nightly/Soduto20-17.delta" sparkle:deltaFrom="17" length="280642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="hXAOU8UVMJ1ktMvptx6JH2bq88CWfbRAUqL/dsQSydqniRkY5PQG2Q9fPk25xGNMFSbhffqxk8uo1nymdgO0Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>v2.0.2 Nightly (19)</title>
+            <pubDate>Mon, 17 Jul 2023 22:20:08 +0530</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.14.6</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://soduto.thenoton.com/Soduto%20Nightly%20v2.0.2.html</sparkle:releaseNotesLink>
+            <enclosure url="https://soduto.thenoton.com/Soduto%20Nightly%20v2.0.2.dmg" length="11359451" type="application/octet-stream" sparkle:edSignature="6vpmZHhDRZdshBO8KA4V9NFb2d9UsHJzfFnawlxGu11AEIGawI9AjjE4OmK6hcyjBdvIP113jTekZ4PSibJSDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v2.0.2-nightly/Soduto19-18.delta" sparkle:deltaFrom="18" length="273222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="zJuiaebqWZzHGviTuOlgOAvSftT0pU+pjEcWUiFGBGXOfBEZSdPzR9Ap/fqFIVWdABedfKaLLIuZLPu1hqsGBQ=="/>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v2.0.2-nightly/Soduto19-17.delta" sparkle:deltaFrom="17" length="292198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="cWLNb3zOA49z6uq65agRyTyTAK81UonT8wHbolie9OjLgDda2FmxlLWz+lUMDdvZkB8YZpTjSTZdP76SHSHODA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>v2.0.1 Nightly (18)</title>
+            <pubDate>Tue, 23 May 2023 21:31:10 +0530</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.14.6</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://soduto.thenoton.com/Soduto%20Nightly%20v2.0.1.html</sparkle:releaseNotesLink>
+            <enclosure url="https://soduto.thenoton.com/Soduto%20Nightly%20v2.0.1.dmg" length="11329478" type="application/octet-stream" sparkle:edSignature="V9T7JqgS533laft69zvnJIawFtN3uzr639EPB6/BT7CZXTJ918HsMyfXHqFso2JJ4NjRrcaycoxizwarYpC0AA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/sannidhyaroy/Soduto/releases/download/v2.0.1-nightly/Soduto18-17.delta" sparkle:deltaFrom="17" length="230294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864768" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="bBCdC/nI+loxqyZxOqrMqfNjCDMR64a7PX0yNbjx3FdpmzeA2CHOa3DI848ZgFcy4t1ez7HldNO7BCnRpAFtDA=="/>
+            </sparkle:deltas>
+        </item>
+    </channel>
+</rss>
